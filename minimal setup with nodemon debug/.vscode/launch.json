@@ -8,8 +8,7 @@
             "name": "Node: Minimal Nodemon Debug",
             "processId": "${command:PickProcess}",
             "restart": true,
-            "protocol": "inspector",
-            "port": 9292
+            "protocol": "inspector"
         }
     ]
 }
