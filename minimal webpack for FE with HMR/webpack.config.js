@@ -10,7 +10,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: "bundle.js"
     },
-    // devtool: 'inline-source-map',
+    devtool: 'inline-source-map',
     devServer: {
         port: 9194,
         hot: true
@@ -19,6 +19,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
           title: 'Hot Module Replacement',
+          // Explicitly point the template, so that the content in html file is not overridden
           template:'index.html'
         }),
         new webpack.HotModuleReplacementPlugin()

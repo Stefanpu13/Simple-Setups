@@ -8,4 +8,4 @@ window.toggleCase = (elementId) => {
     heading.innerText = toggleCase(heading.innerText);
 };
 
-console.log('great scuccesss', toClosestEvenInteger(4.3));
+console.log('great success', toClosestEvenInteger(4.3));

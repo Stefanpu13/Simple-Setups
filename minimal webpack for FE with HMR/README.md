@@ -1,4 +1,4 @@
-# Minimal webpack dev config
+# Minimal webpack dev config with HMR
 
 ## Steps (if first time install and no packages.json present)
 * **npm init**
